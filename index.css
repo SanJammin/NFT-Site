@@ -1,0 +1,26 @@
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+
+body {
+    margin: 0;
+    color: #2b283a;
+    font-size: 1rem;
+    font-family: "Roboto",serif;
+}
