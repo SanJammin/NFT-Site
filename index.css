@@ -48,3 +48,17 @@ section {
 .sneakers {
     width: 100%;
 }
+
+section h2 {
+    margin-top: 0;
+}
+
+a {
+    color: #ef5839;
+    text-decoration: dotted underline;
+}
+
+a:hover, a:active {
+    color: #d4b44c;
+    text-decoration: dotted underline;
+}
