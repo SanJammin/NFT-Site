@@ -42,13 +42,15 @@ header, section, footer {
 
 /* Header */
 
-h1 {
-    font-size: 2.25rem;
+h1, header h2 {
     margin: 0;
 }
 
+h1 {
+    font-size: 2.25rem;
+}
+
 header h2 {
-    margin: 0;
     color: #d0aaff;
     font-size: 1.25rem;
 }
