@@ -24,9 +24,10 @@ body {
     font-family: "Roboto",serif;
 }
 
-header {
+.purple-bg {
     background-color: #5f29a3;
     padding: 45px 0;
+    color: whitesmoke;
 }
 
 section {
@@ -44,7 +45,6 @@ section {
 
 h1 {
     font-size: 2.25rem;
-    color: whitesmoke;
     margin: 0;
 }
 
@@ -72,4 +72,16 @@ a {
 a:hover, a:active {
     color: #d4b44c;
     text-decoration: dotted underline;
+}
+
+/* Section 2 */
+
+.img-container {
+    display: flexbox;
+    justify-content: space-between;
+}
+
+.section-two-img {
+    width: 300px;
+    border-radius: 4.6px;
 }
