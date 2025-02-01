@@ -77,7 +77,7 @@ a:hover, a:active {
 /* Section 2 */
 
 .img-container {
-    display: flexbox;
+    display: flex;
     justify-content: space-between;
 }
 
