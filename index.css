@@ -24,14 +24,13 @@ body {
     font-family: "Roboto",serif;
 }
 
-.purple-bg {
-    background-color: #5f29a3;
+header, section, footer {
     padding: 45px 0;
-    color: whitesmoke;
 }
 
-section {
-    padding: 45px 0;
+.purple-bg {
+    background-color: #5f29a3;
+    color: whitesmoke;
 }
 
 
@@ -91,5 +90,4 @@ footer {
     color: #5f29a3;
     font-size: 1rem;
     text-align: center;
-    padding: 45px 0;
 }
