@@ -32,13 +32,30 @@ p {
 /* Links */
 
 a {
-    color: #ef5839;
-    text-decoration: dotted underline;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.buy-btn {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.info-and-contact-btn {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.about-btn {
+    background-color: whitesmoke;
+    color: #5f29a3;
 }
 
 a:hover, a:active {
-    color: #d4b44c;
-    text-decoration: dotted underline;
+    color: #2b283a;
+    background-color: #f3e885;
 }
 
 
