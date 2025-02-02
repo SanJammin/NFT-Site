@@ -93,3 +93,7 @@ footer {
     font-size: 1rem;
     text-align: center;
 }
+
+p {
+    line-height: 23px;
+}
