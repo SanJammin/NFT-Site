@@ -114,6 +114,16 @@ header,
     margin: 0 auto 2em;
 }
 
+.section-two-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.feature-item {
+    flex: 1 220px;
+}
+
 .feature-image {
     border-radius: 4.6px;
     margin-bottom: 1em;
@@ -146,17 +156,6 @@ li:not(:last-child) {
 }
 
 /* ----- MEDIA QUERIES ----- */
-
-@media (min-width: 480px) {
-    .section-two-image-container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .feature-image {
-        width: 48.8%;
-    }
-}
 
 @media (min-width: 768px) {
     header, 
