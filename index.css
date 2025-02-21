@@ -185,6 +185,20 @@ li:not(:last-child) {
     p {
         font-size: 1.125rem;
     }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav {
+        margin-left: auto;
+    }
+
+    ul {
+        display: flex;
+        gap: 1em;
+    }
 }
 
 @media (max-width: 767px) {
