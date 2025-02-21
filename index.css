@@ -130,6 +130,9 @@ footer {
 nav a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.125rem;
+    padding: 1em 0;
+    display: block;
 }
 
 ul {
@@ -181,5 +184,15 @@ li:not(:last-child) {
 
     p {
         font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 1.5em;
     }
 }
