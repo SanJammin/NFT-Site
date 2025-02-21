@@ -186,7 +186,7 @@ li:not(:last-child) {
         font-size: 1.125rem;
     }
 
-    .container {
+    header .container {
         display: flex;
         flex-direction: row;
     }
@@ -199,6 +199,11 @@ li:not(:last-child) {
         display: flex;
         gap: 1em;
     }
+
+    li:not(:last-child) {
+        border-bottom: none;
+    }
+    
 }
 
 @media (max-width: 767px) {
